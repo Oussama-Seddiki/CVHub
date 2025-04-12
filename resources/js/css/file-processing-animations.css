@@ -1,0 +1,179 @@
+/**
+ * Shared animations and styling for file processing pages
+ */
+
+/* Progress bar animation */
+.progress-animation {
+    animation: progress-bar 3s infinite;
+    background: linear-gradient(90deg, rgba(79, 70, 229, 0.7) 0%, rgba(99, 102, 241, 1) 50%, rgba(79, 70, 229, 0.7) 100%);
+}
+
+@keyframes progress-bar {
+    0% { width: 15%; }
+    50% { width: 85%; }
+    100% { width: 15%; }
+}
+
+/* Enhanced file drag-and-drop area */
+.file-drop-enter-active,
+.file-drop-leave-active {
+    transition: all 0.3s ease;
+}
+
+.file-drop-enter-from,
+.file-drop-leave-to {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+/* Options transitions */
+.options-enter-active,
+.options-leave-active {
+    transition: all 0.3s ease-out;
+}
+
+.options-enter-from,
+.options-leave-to {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* File card hover effect */
+.file-card {
+    transition: all 0.2s ease;
+}
+
+.file-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Pulse animation for OCR processing */
+.ocr-pulse {
+    animation: ocr-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes ocr-pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* Success message animation */
+.success-animation {
+    animation: success-slide-in 0.5s ease-out;
+}
+
+@keyframes success-slide-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Button hover animation */
+.btn-hover {
+    transition: all 0.2s ease;
+}
+
+.btn-hover:hover:not(:disabled) {
+    transform: translateY(-1px);
+}
+
+/* Dropdown animation */
+.dropdown-enter-active,
+.dropdown-leave-active {
+    transition: all 0.2s ease;
+}
+
+.dropdown-enter-from,
+.dropdown-leave-to {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+/* File upload icon animation */
+.upload-icon {
+    transition: all 0.3s ease;
+}
+
+.upload-icon:hover {
+    transform: scale(1.1);
+    color: #4f46e5; /* indigo-600 */
+}
+
+/* Badge animations */
+.badge {
+    transition: all 0.2s ease;
+}
+
+.badge:hover {
+    transform: scale(1.05);
+}
+
+/* Details summary animation */
+details summary {
+    transition: all 0.2s ease;
+}
+
+details summary:hover {
+    color: #4f46e5; /* indigo-600 */
+}
+
+details[open] summary {
+    margin-bottom: 10px;
+}
+
+/* Advanced options animation */
+details .content {
+    animation: sweep 0.3s ease-in-out;
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Header animations */
+h3, h4 {
+    position: relative;
+}
+
+h3::after, h4::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #4f46e5; /* indigo-600 */
+    transition: width 0.3s ease;
+}
+
+h3:hover::after, h4:hover::after {
+    width: 50px;
+}
+
+/* Error message animation */
+.error-message {
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+} 

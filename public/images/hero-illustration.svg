@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CVHub Hero Illustration</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0066FF" offset="0%"></stop>
+            <stop stop-color="#3380FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#0052CC" offset="0%"></stop>
+            <stop stop-color="#0066FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FF9900" offset="0%"></stop>
+            <stop stop-color="#FFCC00" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-15.0%" y="-15.0%" width="130.0%" height="130.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Hero-Illustration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Background Elements -->
+        <circle id="Blob-1" fill="url(#linearGradient-1)" opacity="0.2" filter="url(#filter-4)" cx="650" cy="150" r="100"></circle>
+        <circle id="Blob-2" fill="url(#linearGradient-2)" opacity="0.15" filter="url(#filter-4)" cx="200" cy="450" r="120"></circle>
+        
+        <!-- Main CV Document -->
+        <g id="CV-Document" transform="translate(250, 100)">
+            <rect id="Document-Base" fill="#FFFFFF" x="0" y="0" width="300" height="400" rx="8"></rect>
+            <rect id="Document-Shadow" fill="#000000" opacity="0.1" x="5" y="5" width="300" height="400" rx="8"></rect>
+            
+            <!-- CV Header -->
+            <rect id="Header" fill="url(#linearGradient-1)" x="0" y="0" width="300" height="80" rx="8 8 0 0"></rect>
+            <circle id="Profile-Photo" fill="#FFFFFF" cx="60" cy="40" r="30"></circle>
+            <rect id="Name" fill="#FFFFFF" opacity="0.8" x="110" y="25" width="150" height="10" rx="5"></rect>
+            <rect id="Title" fill="#FFFFFF" opacity="0.6" x="110" y="45" width="120" height="8" rx="4"></rect>
+            
+            <!-- CV Content -->
+            <rect id="Section-Title-1" fill="#0066FF" opacity="0.8" x="30" y="100" width="100" height="10" rx="5"></rect>
+            <rect id="Content-Line-1" fill="#E0E0E0" x="30" y="120" width="240" height="6" rx="3"></rect>
+            <rect id="Content-Line-2" fill="#E0E0E0" x="30" y="135" width="240" height="6" rx="3"></rect>
+            <rect id="Content-Line-3" fill="#E0E0E0" x="30" y="150" width="180" height="6" rx="3"></rect>
+            
+            <rect id="Section-Title-2" fill="#0066FF" opacity="0.8" x="30" y="180" width="80" height="10" rx="5"></rect>
+            <rect id="Content-Line-4" fill="#E0E0E0" x="30" y="200" width="240" height="6" rx="3"></rect>
+            <rect id="Content-Line-5" fill="#E0E0E0" x="30" y="215" width="240" height="6" rx="3"></rect>
+            <rect id="Content-Line-6" fill="#E0E0E0" x="30" y="230" width="200" height="6" rx="3"></rect>
+            
+            <rect id="Section-Title-3" fill="#0066FF" opacity="0.8" x="30" y="260" width="90" height="10" rx="5"></rect>
+            <rect id="Content-Line-7" fill="#E0E0E0" x="30" y="280" width="240" height="6" rx="3"></rect>
+            <rect id="Content-Line-8" fill="#E0E0E0" x="30" y="295" width="240" height="6" rx="3"></rect>
+            <rect id="Content-Line-9" fill="#E0E0E0" x="30" y="310" width="160" height="6" rx="3"></rect>
+            
+            <rect id="Section-Title-4" fill="#0066FF" opacity="0.8" x="30" y="340" width="70" height="10" rx="5"></rect>
+            <rect id="Skill-1" fill="#0066FF" opacity="0.3" x="30" y="360" width="80" height="20" rx="10"></rect>
+            <rect id="Skill-2" fill="#0066FF" opacity="0.3" x="120" y="360" width="60" height="20" rx="10"></rect>
+            <rect id="Skill-3" fill="#0066FF" opacity="0.3" x="190" y="360" width="70" height="20" rx="10"></rect>
+        </g>
+        
+        <!-- Floating Elements -->
+        <g id="Floating-Elements">
+            <!-- PDF Icon -->
+            <g id="PDF-Icon" transform="translate(150, 200)">
+                <rect id="PDF-Base" fill="#FF5252" x="0" y="0" width="60" height="80" rx="4"></rect>
+                <path d="M40,0 L60,20 L40,20 L40,0 Z" id="PDF-Corner" fill="#E53935"></path>
+                <rect id="PDF-Text-1" fill="#FFFFFF" x="15" y="40" width="30" height="6" rx="3"></rect>
+                <rect id="PDF-Text-2" fill="#FFFFFF" x="15" y="50" width="30" height="6" rx="3"></rect>
+                <text x="15" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF">PDF</text>
+            </g>
+            
+            <!-- Word Icon -->
+            <g id="Word-Icon" transform="translate(580, 250)">
+                <rect id="Word-Base" fill="#4285F4" x="0" y="0" width="60" height="80" rx="4"></rect>
+                <path d="M40,0 L60,20 L40,20 L40,0 Z" id="Word-Corner" fill="#3367D6"></path>
+                <rect id="Word-Text-1" fill="#FFFFFF" x="15" y="40" width="30" height="6" rx="3"></rect>
+                <rect id="Word-Text-2" fill="#FFFFFF" x="15" y="50" width="30" height="6" rx="3"></rect>
+                <text x="12" y="30" font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF">DOC</text>
+            </g>
+            
+            <!-- AI Element -->
+            <g id="AI-Element" transform="translate(500, 150)">
+                <circle id="AI-Circle" fill="url(#linearGradient-3)" cx="40" cy="40" r="40"></circle>
+                <path d="M40,20 C51.0457,20 60,28.9543 60,40 C60,51.0457 51.0457,60 40,60 C28.9543,60 20,51.0457 20,40" id="AI-Arc" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"></path>
+                <circle id="AI-Dot-1" fill="#FFFFFF" cx="25" cy="30" r="3"></circle>
+                <circle id="AI-Dot-2" fill="#FFFFFF" cx="55" cy="30" r="3"></circle>
+                <path d="M30,50 C33.3333,53.3333 36.6667,53.3333 40,50 C43.3333,46.6667 46.6667,46.6667 50,50" id="AI-Smile" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
+            </g>
+        </g>
+        
+        <!-- Decorative Lines -->
+        <path d="M100,300 C150,250 200,350 250,300" id="Line-1" stroke="#0066FF" stroke-width="2" opacity="0.3"></path>
+        <path d="M550,400 C600,350 650,450 700,400" id="Line-2" stroke="#0066FF" stroke-width="2" opacity="0.3"></path>
+        
+        <!-- Particles -->
+        <circle id="Particle-1" fill="#0066FF" cx="150" cy="150" r="5" opacity="0.5"></circle>
+        <circle id="Particle-2" fill="#0066FF" cx="650" cy="350" r="3" opacity="0.5"></circle>
+        <circle id="Particle-3" fill="#0066FF" cx="350" cy="450" r="4" opacity="0.5"></circle>
+        <circle id="Particle-4" fill="#0066FF" cx="550" cy="150" r="6" opacity="0.5"></circle>
+        <circle id="Particle-5" fill="#FF9900" cx="200" cy="350" r="4" opacity="0.5"></circle>
+        <circle id="Particle-6" fill="#FF9900" cx="600" cy="450" r="5" opacity="0.5"></circle>
+    </g>
+</svg>

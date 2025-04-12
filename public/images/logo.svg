@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180" height="60" viewBox="0 0 180 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main document shape -->
+  <rect x="10" y="10" width="40" height="40" rx="8" fill="#3B82F6"/>
+  
+  <!-- CV letters with modern style -->
+  <path d="M20 40L25 20H32C35 20 37 21 38.5 23C40 25 40.2 27.5 39.5 30.5C38.8 33.5 37.2 36 35 38C32.8 40 30 41 27 41H20L20 40ZM26.5 35.5H28.8C30.3 35.5 31.5 35 32.5 33.8C33.5 32.6 34.2 31 34.5 29.2C34.8 27.6 34.7 26.3 34.2 25.3C33.7 24.3 32.7 23.8 31.3 23.8H29L26.5 35.5Z" fill="white"/>
+  
+  <!-- Floating document icons representing the three services -->
+  <rect x="55" y="15" width="20" height="25" rx="3" fill="#2563EB" opacity="0.9"/>
+  <rect x="75" y="10" width="20" height="25" rx="3" fill="#1D4ED8"/>
+  <rect x="95" y="18" width="20" height="25" rx="3" fill="#3B82F6" opacity="0.85"/>
+  
+  <!-- "Hub" text with modern typography -->
+  <path d="M125 25H132V35H135V42H132V39H125V42H122V35H125V25ZM125 36V28H128V36H125Z" fill="#1E40AF"/>
+  <path d="M138 25H152C153.5 25 154.8 25.5 155.8 26.5C156.8 27.5 157.3 28.8 157.3 30.3C157.3 31.8 156.8 33.1 155.8 34.1C154.8 35.1 153.5 35.7 152 35.8L158 42H153L147.5 36H142V42H138V25ZM142 33H150C150.8 33 151.5 32.8 152 32.3C152.5 31.8 152.8 31.2 152.8 30.5C152.8 29.8 152.5 29.2 152 28.7C151.5 28.2 150.8 28 150 28H142V33Z" fill="#1E40AF"/>
+  
+  <!-- Subtle AI/tech accent elements -->
+  <circle cx="170" cy="25" r="5" fill="#3B82F6" opacity="0.7"/>
+  <rect x="165" y="35" width="10" height="2" rx="1" fill="#3B82F6"/>
+  <rect x="167" y="39" width="6" height="2" rx="1" fill="#3B82F6"/>
+</svg>

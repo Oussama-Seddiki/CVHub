@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@inertiajs/vue3": "^2.0.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@tailwindcss/vite": "^4.0.0",
+        "@vitejs/plugin-vue": "^5.0.0",
+        "autoprefixer": "^10.4.12",
+        "axios": "^1.8.2",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.2.0",
+        "postcss": "^8.4.31",
+        "tailwindcss": "^3.2.1",
+        "vite": "^6.0.11",
+        "vue": "^3.4.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.7.2",
+        "@heroicons/vue": "^2.2.0",
+        "animate.css": "^4.1.1",
+        "aos": "^2.3.4",
+        "gsap": "^3.12.5",
+        "pdf-lib": "^1.17.1",
+        "pdfjs-dist": "^5.1.91",
+        "pinia": "^3.0.1",
+        "swiper": "^11.2.6",
+        "vue-kinesis": "^2.0.5",
+        "vue-router": "^4.5.0",
+        "vue-toastification": "^2.0.0-rc.5",
+        "vue3-lottie": "^2.7.0",
+        "vuedraggable": "^4.1.0",
+        "ziggy-js": "^2.5.2"
+    }
+}

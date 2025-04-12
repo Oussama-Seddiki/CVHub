@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cairo Font Configuration */
+.cairo {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Cairo Font Weight Variations */
+.cairo-200 {
+  font-weight: 200;
+  font-variation-settings: "slnt" 0;
+}
+
+.cairo-300 {
+  font-weight: 300;
+  font-variation-settings: "slnt" 0;
+}
+
+.cairo-400 {
+  font-weight: 400;
+  font-variation-settings: "slnt" 0;
+}
+
+.cairo-500 {
+  font-weight: 500;
+  font-variation-settings: "slnt" 0;
+}
+
+.cairo-600 {
+  font-weight: 600;
+  font-variation-settings: "slnt" 0;
+}
+
+.cairo-700 {
+  font-weight: 700;
+  font-variation-settings: "slnt" 0;
+}
+
+.cairo-800 {
+  font-weight: 800;
+  font-variation-settings: "slnt" 0;
+}
+
+.cairo-900 {
+  font-weight: 900;
+  font-variation-settings: "slnt" 0;
+}
+
+/* Cairo Slant Variations */
+.cairo-slant-left {
+  font-variation-settings: "slnt" -11;
+}
+
+.cairo-slant-right {
+  font-variation-settings: "slnt" 11;
+}
+
+/* Custom Typography Styles */
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Cairo", sans-serif;
+        font-weight: 700;
+    }
+    
+    h1 {
+        @apply text-3xl md:text-4xl;
+        letter-spacing: -0.01em;
+    }
+    
+    h2 {
+        @apply text-2xl md:text-3xl;
+        letter-spacing: -0.01em;
+    }
+    
+    p {
+        @apply text-base leading-relaxed;
+    }
+    
+    /* RTL styling uses the same Cairo font */
+    .rtl {
+        font-family: "Cairo", sans-serif;
+    }
+    
+    .font-heading {
+        font-family: "Cairo", sans-serif;
+        font-weight: 700;
+    }
+    
+    .font-body {
+        font-family: "Cairo", sans-serif;
+        font-weight: 400;
+    }
+}
+
+/* Button styling with typography */
+.btn {
+    @apply font-medium tracking-wide rounded-md transition duration-200 ease-in-out;
+    letter-spacing: 0.01em;
+}
+
+/* Primary button */
+.btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white py-2 px-4 rounded shadow-sm;
+}
+
+/* Heading with elegant underline */
+.heading-underline {
+    @apply relative pb-3;
+}
+
+.heading-underline:after {
+    content: '';
+    @apply absolute bottom-0 left-0 h-0.5 w-16 bg-primary-500 rounded-full;
+}
+
+/* RTL support for heading underline */
+.rtl .heading-underline:after {
+    @apply right-0 left-auto;
+}
